@@ -1,0 +1,164 @@
+	/*
+	cores
+	topbar #20515f
+	logo #a1ffaa
+	font #eeeeee
+	font-body #464646
+	alerta #fa523d
+	*/
+
+	p {
+		font-family: 'Raleway', sans-serif;
+	}
+
+
+	header {
+		background-color: #20515f;
+		padding: 40px 40px 20px 40px;
+		width: 100%;
+	}
+
+	.logo h1 {
+		margin: 0;
+		font-size: 4.6em;
+		color: #a1ffaa;
+		font-family: 'Abril Fatface', cursive;
+	}
+
+	.logo a {
+		text-decoration: none;
+	}
+
+	.logo a:hover {
+		text-decoration: none;
+	}
+
+	.logo span {
+		font-family: 'Raleway', sans-serif;
+		letter-spacing: 2px;
+		color: #fff;
+		font-size: .2em;
+	}
+
+	.contato>p {
+		font-family: 'Raleway', sans-serif;
+		color: #eeeeee;
+		margin-top: 40px;
+	}
+	/*NAVEGAÇAO*/
+
+	nav {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	nav>a {
+		margin-right: 30px;
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		color: #fff;
+		font-size: .9em;
+	}
+
+	nav>a:hover {
+		color: #a1ffaa;
+	}
+	/*CORPO*/
+
+	.img-consultoria {
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+
+	.aprensentacao-mec {
+		margin-bottom: 70px;
+	}
+
+	.aprensentacao-mec h1 {
+		text-align: center;
+		font-family: 'Playfair Display', serif;
+		font-size: 48pt;
+		letter-spacing: 1px;
+		color: #464646;
+		margin-bottom: 40px;
+	}
+
+	.aprensentacao-mec p {
+		font-size: 1.2em;
+	}
+	/*ALERTA*/
+
+	.caixa-alerta {
+		background-color: #fa523d;
+		padding: 20px;
+		text-align: center;
+		color: #fff;
+		font-size: 1.4em;
+	}
+	/*informação*/
+
+	.informacao {
+		padding: 10rem;
+		background: #74ebd5;
+		/* Old browsers */
+		background: -moz-linear-gradient(45deg, #74ebd5 0%, #acb6e5 100%);
+		/* FF3.6-15 */
+		background: -webkit-linear-gradient(45deg, #74ebd5 0%, #acb6e5 100%);
+		/* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(45deg, #74ebd5 0%, #acb6e5 100%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74ebd5', endColorstr='#acb6e5', GradientType=1);
+		/* IE6-9 fallback on horizontal gradient */
+		font-size: 1.8em;
+		color: #464646;
+		margin-bottom: 40px;
+	}
+
+	.informacao img {
+		margin-bottom: 20px;
+		width: 20%;
+	}
+	/*FOOTER*/
+
+	footer {
+		padding-top: 60px;
+		background: rgb(72, 85, 99);
+		/* Old browsers */
+		background: -moz-linear-gradient(45deg, rgba(72, 85, 99, 1) 0%, rgba(41, 50, 60, 1) 100%);
+		/* FF3.6-15 */
+		background: -webkit-linear-gradient(45deg, rgba(72, 85, 99, 1) 0%, rgba(41, 50, 60, 1) 100%);
+		/* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(45deg, rgba(72, 85, 99, 1) 0%, rgba(41, 50, 60, 1) 100%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#485563', endColorstr='#29323c', GradientType=1);
+		/* IE6-9 fallback on horizontal gradient */
+	}
+	footer ul li{
+		list-style: none;
+		margin-bottom: 20px;
+	}
+	footer li a{
+		color: #a1ffaa;
+		font-size: 1.1em;
+		line-height: 1.8;
+	}
+		footer li a:hover{
+			color: #fff;
+		}
+		.form-group label{
+			color: #fff;
+		}
+/*=============
+SOBRE
+===============*/
+.sobre-main h1{
+		font-family: 'Playfair Display', serif;
+		font-size: 3.6em;
+		margin-bottom: 40px;
+}
+.sobre-main h3{
+			font-family: 'Playfair Display', serif;
+}
+.sobre-main p {
+	font-size: 1.2em;
+}
