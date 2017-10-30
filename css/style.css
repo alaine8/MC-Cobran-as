@@ -10,6 +10,9 @@
 	p {
 		font-family: 'Raleway', sans-serif;
 	}
+	.pag-contato p {
+		margin-top: 80px;
+	}
 
 
 	header {
@@ -148,9 +151,7 @@
 		.form-group label{
 			color: #fff;
 		}
-/*=============
-SOBRE
-===============*/
+
 .sobre-main h1{
 		font-family: 'Playfair Display', serif;
 		font-size: 3.6em;
@@ -161,4 +162,87 @@ SOBRE
 }
 .sobre-main p {
 	font-size: 1.2em;
+}
+
+/*=============
+SOBRE
+===============*/
+.back-empresa {
+	background-color: #eeeeee;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	font-family: 'Playfair Display', serif;
+	font-size: 3.6em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.back-dup{
+	background-color: #f6f3f3;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: 'Playfair Display', serif;
+	font-size: 3.6em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.back-contratos{
+	background-color: #eeeeee;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-family: 'Playfair Display', serif;
+	font-size: 3.6em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.back-local{
+	background-color: #f6f3f3;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: 'Playfair Display', serif;
+	font-size: 3.6em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.back-web{
+	background-color: #eeeeee;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-family: 'Playfair Display', serif;
+	font-size: 3.6em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ============
+PARCEIROS
+================== */
+.parceiros-pag > p{
+	font-family: 'Raleway', sans-serif;
+	color: #464646;
+	font-size: 1.5em;
+	text-transform: uppercase; 
+	margin-top: 40px;
+	text-align: center;
+}
+.parceiros-pag > h1 {
+	font-family: 'Playfair Display', serif;
+	background-color: #eee;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+/* ================
+CONTATO
+================*/
+.form-contato label {
+	color: #464646;
+}
+.btn {
+	margin-top: 20px;
+}
+.pag-contato{
+	margin-top: 40px;
 }
