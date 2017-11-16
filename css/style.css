@@ -8,7 +8,7 @@
 	*/
 
 	p {
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Karla', sans-serif;
 	}
 	.pag-contato p {
 		margin-top: 80px;
@@ -16,15 +16,45 @@
 
 
 	header {
-		background-color: #20515f;
-		padding: 40px 40px 20px 40px;
-		width: 100%;
 	}
+.top-menu-social{
+	background-color: #464c69;
+	width: 100%;
+	padding: 10px 0px 5px 0px;
+}
+.top-contato a {
+ font-size: .6rem;
 
+}
+.top-contato a:hover{
+	 text-decoration: none;
+}
+
+/* ====
+ICON
+===== */
+.top-menu-social a{
+	color: #fff;
+	margin-left: 30px;
+	font-size: 1.2em;
+}
+.top-menu-social a:hover{
+	color: #eeeeee;
+	-webkit-transition: color 200ms ease-in 100ms;
+	-moz-transition: color 200ms ease-in 100ms;
+	transition: color 200ms ease-in 100ms;
+}
+/*
+ menu
+
+*/
+.menu-page{
+	background-color: #f6f3f3;
+}
 	.logo h1 {
-		margin: 0;
+		margin-left: 30px;
 		font-size: 4.6em;
-		color: #a1ffaa;
+		color: #464c69;
 		font-family: 'Abril Fatface', cursive;
 	}
 
@@ -39,32 +69,38 @@
 	.logo span {
 		font-family: 'Raleway', sans-serif;
 		letter-spacing: 2px;
-		color: #fff;
+		color: #003563;
 		font-size: .2em;
+		text-transform: uppercase;
 	}
 
 	.contato>p {
 		font-family: 'Raleway', sans-serif;
-		color: #eeeeee;
+		color: #003563;
 		margin-top: 40px;
 	}
 	/*NAVEGAÇAO*/
 
 	nav {
-		margin-top: 20px;
+		margin-top: 60px;
 		text-align: center;
 	}
 
 	nav>a {
 		margin-right: 30px;
 		text-transform: uppercase;
-		font-family: 'Raleway', sans-serif;
-		color: #fff;
+		font-family: 'Oswald', sans-serif;
+		color: #003563;
 		font-size: .9em;
+		letter-spacing: 2px;
 	}
 
 	nav>a:hover {
-		color: #a1ffaa;
+		color: #0ba6ab;
+		text-decoration: none;
+		-webkit-transition: color 200ms ease 100ms;
+		-moz-transition: color 200ms ease 100ms;
+		transition: color 200ms ease 100ms;
 	}
 	/*CORPO*/
 

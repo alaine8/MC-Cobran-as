@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="https://use.fontawesome.com/45efa58227.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display:900|Raleway:400,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<title>.::M&C Cobranças::.</title>
-</head>
-
-<body>
-	<header>
-		<div class="row">
-			<div class="logo col-md-6 col-sm-12 col-lg-6 col-xs-12">
-				<a href="index.html">
-					<h1>MC <span>consultoria e cobranças</span></h1>
-				</a>
-			</div>
-			<div class="contato col-md-6 col-sm-12 col-lg-6 col-xs-12">
-					<p>mcconsultoriacobrancas@gmail.com (77)99842-4707 / (77)99943-0570</p>
-				</div>
-		</div>
-		<div class="row">
-			<nav class="col-xs-12">
-				<a href="index.html">Home</a>
-				<a href="servicos.html">Serviços</a>
-				<a href="contato.html">contato</a>
-				<a href="parceiros.html">Parceiros</a>
-				<a href="sobre.html">Sobre</a>
-				<a href="login.html">Login</a>
-			</nav>
-		</div>
-	</header>
+<?php
+	include 'head.php';
+?>
 	<main class="container">
 		<div class="row">
 			<img class="img-consultoria img-responsive img-thumbnail col-md-4 col-md-offset-4 col-sm-12" src="img/consultoria.png" alt="Imagem ilustrativa de um acordo bem sucedido">
@@ -95,7 +60,7 @@
 					<li><a href="contato.html">contato</a></li>
 					<li><a href="parceiros.html">Parceiros</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="login.html">Login</a></li>
+					<li><a href="#">Login</a></li>
 				</ul>
 </div>
 		
