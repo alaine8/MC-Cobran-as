@@ -37,11 +37,11 @@
 				</a>
 			</div>
 			<nav class="col col-xl-6 col-sm-8">
-				<a href="index.html">Home</a>
-				<a href="servicos.html">Serviços</a>
-				<a href="contato.html">contato</a>
-				<a href="parceiros.html">Parceiros</a>
-				<a href="sobre.html">Sobre</a>
+				<a href="index.php">Home</a>
+				<a href="servicos.php">Serviços</a>
+				<a href="contato.php">contato</a>
+				<a href="parceiros.php">Parceiros</a>
+				<a href="sobre.php">Sobre</a>
 				<a href="#">Login</a>
 			</nav>
 		</div>

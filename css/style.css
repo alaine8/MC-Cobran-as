@@ -44,6 +44,13 @@ ICON
 	-moz-transition: color 200ms ease-in 100ms;
 	transition: color 200ms ease-in 100ms;
 }
+	.fa-users,
+.fa-handshake-o {
+	color: #fff;
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
 /*
  menu
 
@@ -104,10 +111,10 @@ ICON
 	}
 	/*CORPO*/
 
-	.img-consultoria {
-		margin-top: 80px;
-		margin-bottom: 40px;
-	}
+.slide-img{
+	width: 100%;
+	height: auto;
+}
 
 	.aprensentacao-mec {
 		margin-bottom: 70px;
@@ -115,7 +122,8 @@ ICON
 
 	.aprensentacao-mec h1 {
 		text-align: center;
-		font-family: 'Playfair Display', serif;
+		font-family: 'Oswald', serif;
+		line-height: 1.2;
 		font-size: 48pt;
 		letter-spacing: 1px;
 		color: #464646;
@@ -138,53 +146,45 @@ ICON
 
 	.informacao {
 		padding: 10rem;
-		background: #74ebd5;
-		/* Old browsers */
-		background: -moz-linear-gradient(45deg, #74ebd5 0%, #acb6e5 100%);
-		/* FF3.6-15 */
-		background: -webkit-linear-gradient(45deg, #74ebd5 0%, #acb6e5 100%);
-		/* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(45deg, #74ebd5 0%, #acb6e5 100%);
-		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74ebd5', endColorstr='#acb6e5', GradientType=1);
-		/* IE6-9 fallback on horizontal gradient */
-		font-size: 1.8em;
-		color: #464646;
-		margin-bottom: 40px;
+		background: #464c69;
+		margin-bottom: 100px;
 	}
-
-	.informacao img {
-		margin-bottom: 20px;
-		width: 20%;
+	.informacao p {
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.8em;
+		color: #fff;
 	}
 	/*FOOTER*/
 
 	footer {
-		padding-top: 60px;
-		background: rgb(72, 85, 99);
-		/* Old browsers */
-		background: -moz-linear-gradient(45deg, rgba(72, 85, 99, 1) 0%, rgba(41, 50, 60, 1) 100%);
-		/* FF3.6-15 */
-		background: -webkit-linear-gradient(45deg, rgba(72, 85, 99, 1) 0%, rgba(41, 50, 60, 1) 100%);
-		/* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(45deg, rgba(72, 85, 99, 1) 0%, rgba(41, 50, 60, 1) 100%);
-		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#485563', endColorstr='#29323c', GradientType=1);
-		/* IE6-9 fallback on horizontal gradient */
+	background-color: #464c69;
+	color: #fff;
+	padding: 40px 0 40px 0;
+	}
+  footer a h1{
+		font-family: 'Oswald', sans-serif;
+		color: #fff;
+	}
+	footer span{
+		margin-left: 10px;
+		font-size: 0.7em;
+	}
+	footer ul{
+		margin-top: 20px;
 	}
 	footer ul li{
 		list-style: none;
 		margin-bottom: 20px;
 	}
+	footer p a{
+		color: #fff;
+	}
 	footer li a{
-		color: #a1ffaa;
+		color: #fff;
 		font-size: 1.1em;
 		line-height: 1.8;
 	}
 		footer li a:hover{
-			color: #fff;
-		}
-		.form-group label{
 			color: #fff;
 		}
 
